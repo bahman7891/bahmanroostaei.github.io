@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<img src="assets/profile.jpg" alt="Bahman Roostaei" width="180" style="border-radius: 50%; margin-bottom: 1rem;">
+<img src="assets/profile.jpg" alt="" width="180" style="border-radius: 50%; margin-bottom: 1rem;">
 
 # Bahman Roostaei
 **Senior Data Scientist | Applied Machine Learning | Scalable AI Systems**  
