@@ -11,7 +11,6 @@ title: "Bahman Roostaei"
 
 I am a senior data scientist with a PhD in Theoretical Physics and over 6 years of experience developing scalable, production-grade machine learning systems. My work spans a wide range of domains including time series forecasting, signal classification, real-time analytics, and edge AI deployment.
 
-In my previous role, I led the full development of a **real-time electric vehicle (EV) detection system** designed for smart grid control environments. This solution, built for deployment at the edge, has been submitted for **U.S. patent protection** and is currently under review.
 
 ---
 
