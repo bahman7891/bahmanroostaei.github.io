@@ -9,7 +9,7 @@ title: "Bahman Roostaei"
 
 🎓 **PhD in Theoretical Physics**  
 💼 **Senior Data Scientist** — Smart Grid | Time Series | Edge AI  
-🌍 Currently based in **Dubai**, building real-time analytics for energy systems
+🌍 Currently based in **San Francisco**, building real-time analytics for energy systems
 
 ---
 
