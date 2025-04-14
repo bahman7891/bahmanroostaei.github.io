@@ -1,6 +1,5 @@
 ---
 layout: home
-title: "Bahman Roostaei"
 ---
 
 <img src="assets/profile.jpg" alt="Bahman Roostaei" width="180" style="border-radius: 50%; margin-bottom: 1rem;">
