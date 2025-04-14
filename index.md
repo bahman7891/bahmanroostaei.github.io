@@ -6,38 +6,44 @@ title: "Bahman Roostaei"
 <img src="/assets/profile.jpg" alt="Bahman Roostaei" width="180" style="border-radius: 50%; margin-bottom: 1rem;">
 
 # Bahman Roostaei
-**Senior Data Scientist | Applied Machine Learning | Scalable AI Systems**
+**Senior Data Scientist | Applied Machine Learning | Scalable AI Systems**  
+📍 San Francisco, CA
 
-Experienced data scientist with a PhD in Theoretical Physics and a strong background in building and deploying end-to-end machine learning solutions. My work spans time series forecasting, pattern recognition, model optimization, and real-time AI deployment — across multiple domains including infrastructure, operations, and emerging technologies.
+I am a senior data scientist with a PhD in Theoretical Physics and over 6 years of experience developing scalable, production-grade machine learning systems. My work spans a wide range of domains including time series forecasting, signal classification, real-time analytics, and edge AI deployment.
+
+In my previous role, I led the full development of a **real-time electric vehicle (EV) detection system** designed for smart grid control environments. This solution, built for deployment at the edge, has been submitted for **U.S. patent protection** and is currently under review.
 
 ---
 
 ## Summary
 
-- 6+ years of experience developing machine learning systems across a variety of domains
-- Proven track record of translating complex real-world problems into scalable AI solutions
-- Deep expertise in feature engineering, modeling, cloud-native deployment, and edge computing
-- Strong communicator and collaborator with experience working cross-functionally with product, engineering, and business teams
+- Extensive experience building and deploying end-to-end ML systems across multiple industries
+- Expertise in model development, orchestration, feature engineering, and system integration
+- Strong focus on scalable AI architectures: from cloud-based workflows to embedded inference
+- Proven ability to drive cross-functional initiatives from concept through implementation
 
 ---
 
 ## Core Competencies
 
-**ML/AI Techniques**: Supervised and unsupervised learning, time series forecasting, anomaly detection, signal processing  
-**Languages**: Python, SQL, C++  
-**Tools**: Scikit-learn, TensorFlow, PyTorch, XGBoost, Pandas, MLflow  
-**Deployment**: Azure, Docker, GitHub Actions, REST APIs, TFLite  
-**Applications**: Predictive modeling, real-time decision systems, data-driven automation
+**Machine Learning Techniques**: Supervised and unsupervised learning, anomaly detection, time series modeling, signal processing  
+**Programming Languages**: Python, SQL  
+**Frameworks & Tools**: Scikit-learn, TensorFlow, Keras, XGBoost, Pandas, MLflow, Git, Docker  
+**Deployment**: Azure, TFLite, embedded runtimes, REST APIs  
+**Applications**: Predictive modeling, automated decision systems, intelligent IoT, scalable data pipelines
 
 ---
 
-## Sample Projects
+## Selected Projects
 
-**End-to-End Forecasting System**  
-Built and deployed a modular machine learning pipeline to forecast event-driven behaviors from temporal and structured data. Included live feature extraction, model orchestration, and automated retraining strategies.
+### Scalable EV Detection for Smart Grid Control *(Patent-Pending)*
+Led the development of a real-time electric vehicle (EV) detection system using high-resolution time series data from household energy meters. The project included edge-optimized deep learning models, real-time data ingestion, and backend integration with smart grid control systems. The solution has been submitted as part of a U.S. **patent application currently under review**.
 
-**Real-Time Signal Classification on Edge Devices**  
-Developed lightweight deep learning models optimized for low-power embedded systems. Integrated with edge runtimes and back-end data collectors for real-time performance and monitoring.
+### Modular Forecasting Platform
+Designed and deployed a cloud-native pipeline for forecasting event-driven outcomes in structured and temporal datasets. Implemented model versioning, auto-retraining, and CI/CD using GitHub Actions and MLflow.
+
+### Signal Classification on Embedded Devices
+Developed stacked ML and lightweight deep learning models for real-time signal classification on constrained hardware. Integrated with embedded runtimes and backend services for performance monitoring and automated reporting.
 
 ---
 
@@ -50,7 +56,7 @@ Developed lightweight deep learning models optimized for low-power embedded syst
 
 ---
 
-## Upcoming Additions
+## Coming Soon
 
-- **Blog**: Use cases, ideas, and implementation walkthroughs from my work in applied AI
-- **Portfolio**: Deeper dives into real-world projects and modeling strategies across different industries
+- **Blog**: Thought leadership, design patterns in ML architecture, and deployment tips  
+- **Portfolio**: Expanded breakdowns of applied AI projects across industry use cases
