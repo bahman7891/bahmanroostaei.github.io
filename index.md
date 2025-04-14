@@ -27,8 +27,7 @@ I am a senior data scientist with a PhD in Theoretical Physics and over 6 years 
 
 **Machine Learning Techniques**: Supervised and unsupervised learning, anomaly detection, time series modeling, signal processing  
 **Programming Languages**: Python, SQL  
-**Frameworks & Tools**: Scikit-learn, TensorFlow, Keras, XGBoost, Pandas, MLflow, Git, Docker  
-**Deployment**: Azure, TFLite, embedded runtimes, REST APIs  
+**Frameworks & Tools**: Scikit-learn, TensorFlow, Keras, XGBoost, Pandas, MLflow, Git  
 **Applications**: Predictive modeling, automated decision systems, intelligent IoT, scalable data pipelines
 
 ---
