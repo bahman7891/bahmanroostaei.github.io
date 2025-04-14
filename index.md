@@ -33,8 +33,8 @@ I am a senior data scientist with a PhD in Theoretical Physics and over 6 years 
 
 ## Selected Projects
 
-### Scalable EV Detection for Smart Grid Control *(Patent-Pending)*
-Led the development of a real-time electric vehicle (EV) detection system using high-resolution time series data from household energy meters. The project included edge-optimized machine learning models, real-time data ingestion, and backend integration with smart grid control systems. The solution has been submitted as part of a U.S. **patent application**. 
+### Scalable EV Detection for Smart Grid Control
+Led the development of a real-time electric vehicle (EV) detection system using high-resolution time series data from household energy meters. The project included edge-optimized machine learning models, real-time data ingestion, and backend integration with smart grid control systems. The solution has been submitted as part of a U.S. [**patent application**](https://patentcenter.uspto.gov/applications/18827336?application=). 
 
 ### Modular Forecasting Platform
 Designed and deployed a cloud-native pipeline for forecasting event-driven outcomes in structured and temporal datasets. Implemented model versioning, auto-retraining, and CI/CD using GitHub Actions and MLflow.
