@@ -20,7 +20,7 @@ As a seasoned data scientist, I develop machine learning models for:
 - ⚡ **Smart meter analytics**
 - 📈 **Time series forecasting**
 - 🔌 **Load disaggregation**
-- 🌐 **Edge AI model deployment** (TFLite, Docker)
+- 🌐 **Edge AI model deployment** 
 - ☁️ **Cloud infrastructure (Azure, GitHub Actions)**
 
 I translate complex utility and infrastructure challenges into intelligent, production-ready AI systems.
@@ -29,9 +29,9 @@ I translate complex utility and infrastructure challenges into intelligent, prod
 
 ### 🧠 Skills & Tools
 
-- **Languages**: Python, SQL, C++
+- **Languages**: Python, SQL
 - **Libraries**: TensorFlow, PyTorch, Scikit-learn, XGBoost, Pandas
-- **Platforms**: Azure, Docker, TFLite, MLflow, Git
+- **Platforms**: Azure, TFLite, MLflow, Git
 - **Specialties**: Rolling window features, real-time inference, model quantization
 
 ---
@@ -39,7 +39,7 @@ I translate complex utility and infrastructure challenges into intelligent, prod
 ### 📂 Featured Projects
 
 🔹 **Smart Meter Load Disaggregation**  
-Deployed LSTM-based models to detect electric vehicle charging from 1-second electricity data on embedded devices.
+Deployed AI models to detect electric vehicle charging from 1-second electricity data on embedded devices.
 
 🔹 **Predictive Forecasting Pipeline**  
 Built a full Azure-hosted pipeline to forecast consumption and send alerts in real-time for power grid stability.
