@@ -50,9 +50,8 @@ As lead data scientist, I developed algorithms to identify faulty utility meters
 ## Resume & Contact
 
 - [Download Resume (PDF)](/assets/Bahman_Roostaei_Resume.pdf)
-- [GitHub](https://github.com/bahman7891)
-- [LinkedIn](https://www.linkedin.com/in/bahman-roostaei)
-- Email: bmn7891@gmail.com
+- <a href="https://github.com/bahman7891" target="_blank" rel="noopener">GitHub</a>
+- <a href="https://www.linkedin.com/in/bahman-roostaei" target="_blank" rel="noopener">LinkedIn</a>
 
 ---
 
