@@ -4,3 +4,7 @@ author: Bahman Roostaei
 email: bmn7891@gmail.com
 theme: minima
 markdown: kramdown
+
+header_pages:
+  - index.md
+  - blog.md
