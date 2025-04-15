@@ -8,3 +8,4 @@ markdown: kramdown
 header_pages:
   - index.md
   - blog.md
+  - personal.md
