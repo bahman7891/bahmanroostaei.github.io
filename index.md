@@ -8,7 +8,7 @@ layout: page
 **Senior Data Scientist | Applied Machine Learning | Scalable AI Systems**  
 📍 San Francisco, CA
 
-I am a senior data scientist with a PhD in Theoretical Physics and over 6 years of experience developing scalable, production-grade machine learning systems. My work spans a wide range of domains including time series forecasting, signal classification, real-time analytics, and edge AI deployment.
+I am a senior data scientist with a PhD in Theoretical Physics, Masters in Data Science and over 7 years of experience developing scalable, production-grade machine learning systems. My work spans a wide range of domains including time series forecasting, signal classification, real-time analytics, and edge AI deployment.
 
 
 ---
