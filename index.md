@@ -42,6 +42,11 @@ Designed and deployed a cloud-native pipeline for forecasting event-driven outco
 ### Signal Classification on Embedded Devices
 Developed stacked ML and lightweight deep learning models for real-time signal classification on constrained hardware. Integrated with embedded runtimes and backend services for performance monitoring and automated reporting.
 
+### Fault Detection Algorithms for Metering Systems
+As lead data scientist, I developed algorithms to identify faulty utility meters based on consumption patterns—contributing a core component to the company’s flagship product, Revenue Locator. I designed SQL-based pipelines to extract high-signal features from raw metering data, created scalable feature databases, and supported the modeling layer with Python-based validation. The system enabled proactive fault detection across large meter networks and played a key role in operational diagnostics and revenue protection.
+
+
+
 ---
 
 ## Resume & Contact
