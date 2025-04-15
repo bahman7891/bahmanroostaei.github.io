@@ -34,7 +34,7 @@ I am a senior data scientist with a PhD in Theoretical Physics and over 6 years 
 ## Selected Projects
 
 ### Scalable EV Detection for Smart Grid Control
-Led the development of a real-time electric vehicle (EV) detection system using high-resolution time series data from household energy meters. The project included edge-optimized machine learning models, real-time data ingestion, and backend integration with smart grid control systems. The solution has been submitted as part of a U.S. [**patent application**](https://patentcenter.uspto.gov/applications/18827336?application=). 
+Led the development of real-time electric vehicle (EV) charging detection system using high-resolution time series data from household energy meters. The project included edge-optimized machine learning models, real-time data ingestion, and backend integration with smart grid control systems. The solution has been submitted as part of a U.S. [**patent application**](https://patentcenter.uspto.gov/applications/18827336?application=). 
 
 ### Modular Forecasting Platform
 Designed and deployed a cloud-native pipeline for forecasting event-driven outcomes in structured and temporal datasets. Implemented model versioning, auto-retraining, and CI/CD using GitHub Actions and MLflow.
@@ -44,8 +44,6 @@ Developed stacked ML and lightweight deep learning models for real-time signal c
 
 ### Fault Detection Algorithms for Metering Systems
 As lead data scientist, I developed algorithms to identify faulty utility meters based on consumption patterns—contributing a core component to the company’s flagship product, Revenue Locator. I designed SQL-based pipelines to extract high-signal features from raw metering data, created scalable feature databases, and supported the modeling layer with Python-based validation. The system enabled proactive fault detection across large meter networks and played a key role in operational diagnostics and revenue protection.
-
-
 
 ---
 
