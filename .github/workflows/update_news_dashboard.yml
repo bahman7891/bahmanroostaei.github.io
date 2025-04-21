@@ -2,15 +2,16 @@
 name: Update News Dashboard on GitHub Pages
 
 on:
-  workflow_dispatch:  # manually triggered from GitHub UI
+  workflow_dispatch:  # allow manual trigger
   schedule:
-    - cron: '0 9 * * *'  # runs daily at 09:00 UTC
+    - cron: '0 9 * * *'  # run daily at 09:00 UTC
 
 jobs:
   update-dashboard:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout source pipeline repo
+    - name: Checkout pipeline repo
       uses: actions/checkout@v3
       with:
         repository: bahman7891/news-ml-pipeline
@@ -31,6 +32,8 @@ jobs:
       run: |
         cd pipeline
         python fetch_news.py
+        echo "Check if dashboard file exists:"
+        ls -l news_dashboard.html || (echo "❌ Dashboard not created!" && exit 1)
 
     - name: Checkout GitHub Pages repo
       uses: actions/checkout@v3
@@ -39,15 +42,16 @@ jobs:
         path: pages
         token: ${{ secrets.GH_TOKEN }}
 
-    - name: Copy generated dashboard
+    - name: Copy generated dashboard to GitHub Pages
       run: |
         cp pipeline/news_dashboard.html pages/news_dashboard.html
+        echo "✅ Copied news_dashboard.html to GitHub Pages repo"
 
-    - name: Commit and push dashboard
+    - name: Commit and push changes
       run: |
         cd pages
         git config user.name "github-actions"
         git config user.email "actions@github.com"
         git add news_dashboard.html
-        git commit -m "Update news dashboard [auto]" || echo "No changes to commit"
+        git commit -m "Update news dashboard [automated]" || echo "No changes to commit"
         git push origin main
