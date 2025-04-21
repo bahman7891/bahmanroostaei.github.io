@@ -2,9 +2,9 @@
 name: Update News Dashboard on GitHub Pages
 
 on:
-  workflow_dispatch:  # allow manual trigger
+  workflow_dispatch:
   schedule:
-    - cron: '0 9 * * *'  # run daily at 09:00 UTC
+    - cron: '0 9 * * *'
 
 jobs:
   update-dashboard:
@@ -32,20 +32,21 @@ jobs:
       run: |
         cd pipeline
         python fetch_news.py
-        echo "Check if dashboard file exists:"
-        ls -l news_dashboard.html || (echo "❌ Dashboard not created!" && exit 1)
+        echo "✅ Generated dashboard:"
+        ls -lh news_dashboard.html
 
     - name: Checkout GitHub Pages repo
       uses: actions/checkout@v3
       with:
-        repository: bahman7891/bahman7891.github.io
+        repository: bahman7891/bahmanroostaei.github.io
         path: pages
         token: ${{ secrets.GH_TOKEN }}
 
-    - name: Copy generated dashboard to GitHub Pages
+    - name: Copy dashboard to GitHub Pages repo
       run: |
         cp pipeline/news_dashboard.html pages/news_dashboard.html
-        echo "✅ Copied news_dashboard.html to GitHub Pages repo"
+        echo "✅ Copied dashboard to Pages repo"
+        ls -lh pages/news_dashboard.html
 
     - name: Commit and push changes
       run: |
