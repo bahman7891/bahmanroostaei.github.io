@@ -26,11 +26,6 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install dependencies
-      run: |
-        pip install --upgrade pip
-        pip install -r requirements.txt
-
     - name: Run fetch_news to get latest headlines
       run: |
         python fetch_news.py || echo "⚠️ News fetch failed or empty"
