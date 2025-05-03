@@ -39,7 +39,7 @@ jobs:
     - name: Checkout GitHub Pages repo
       uses: actions/checkout@v3
       with:
-        repository: bahman7891/bahman7891.github.io
+        repository: bahman7891/bahmanroostaei.github.io
         path: pages
         token: ${{ secrets.GH_TOKEN }}
 
