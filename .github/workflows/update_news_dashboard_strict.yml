@@ -32,6 +32,8 @@ jobs:
       run: |
         cd pipeline
         python fetch_news.py
+      env: 
+        NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         echo "Check if dashboard file exists:"
         ls -l news_dashboard.html || (echo "❌ Dashboard not created!" && exit 1)
 
