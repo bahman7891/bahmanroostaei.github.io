@@ -4,6 +4,8 @@ author: Bahman Roostaei
 theme: minima
 markdown: kramdown
 
+baseurl: "/bahmanroostaei.github.io"  # 👈 Add this line
+
 header_pages:
   - index.md
   - blog.md

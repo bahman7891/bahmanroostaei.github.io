@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<img src="assets/profile.jpg" alt="" width="180" style="border-radius: 50%; margin-bottom: 1rem;">
+<img src="{{ site.baseurl }}/assets/profile.jpg" alt="" width="180" style="border-radius: 50%; margin-bottom: 1rem;">
 
 # Bahman Roostaei
 **Senior Data Scientist | Applied Machine Learning | Scalable AI Systems**  
@@ -10,15 +10,14 @@ layout: page
 
 I am a senior data scientist with a PhD in Theoretical Physics, Masters in Data Science and over 7 years of experience developing scalable, production-grade machine learning systems. My work spans a wide range of domains including time series forecasting, signal classification, real-time analytics, and edge AI deployment.
 
-
 ---
 
 ## Summary
 
-- Extensive experience building and deploying end-to-end ML systems across multiple industries
-- Expertise in model development, orchestration, feature engineering, and system integration
-- Strong focus on scalable AI architectures: from cloud-based workflows to embedded inference
-- Proven ability to drive cross-functional initiatives from concept through implementation
+- Extensive experience building and deploying end-to-end ML systems across multiple industries  
+- Expertise in model development, orchestration, feature engineering, and system integration  
+- Strong focus on scalable AI architectures: from cloud-based workflows to embedded inference  
+- Proven ability to drive cross-functional initiatives from concept through implementation  
 
 ---
 
@@ -49,10 +48,10 @@ As lead data scientist, I developed algorithms to identify faulty utility meters
 
 ## Resume & Contact
 
-- [Download Resume (PDF)](/assets/Bahman_Roostaei_Resume.pdf)
+- [Download Resume (PDF)]({{ site.baseurl }}/assets/Bahman_Roostaei_Resume.pdf)
 - <a href="https://github.com/bahman7891" target="_blank" rel="noopener">GitHub</a>
 - <a href="https://www.linkedin.com/in/bahman-roostaei" target="_blank" rel="noopener">LinkedIn</a>
-- [ View News Dashboard](news_dashboard.html)
+- [View News Dashboard]({{ site.baseurl }}/assets/news_dashboard.html)
 
 ---
 
