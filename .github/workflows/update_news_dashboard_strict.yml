@@ -45,7 +45,7 @@ jobs:
 
     - name: Copy generated dashboard to GitHub Pages
       run: |
-        cp pipeline/news_dashboard.html pages/news_dashboard.html
+        cp pipeline/news_dashboard.html pages/assets/news_dashboard.html
         echo "✅ Copied news_dashboard.html to GitHub Pages repo"
 
     - name: Commit and push changes
