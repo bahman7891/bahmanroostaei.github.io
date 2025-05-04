@@ -1,179 +1,206 @@
-
-        <html>
-        <head>
-            <title>News Dashboard</title>
-            <meta charset="utf-8">
-            <style>
-                body { font-family: Arial, sans-serif; margin: 40px; }
-                table { width: 100%; border-collapse: collapse; }
-                th, td { padding: 8px 12px; border: 1px solid #ccc; }
-                th { background-color: #f4f4f4; }
-            </style>
-        </head>
-        <body>
-            <h1>📰 Latest News Dashboard</h1>
-            <p>Updated on: 20250427_0808</p>
-            <table border="1" class="dataframe">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 40px; }
+        h1 { font-size: 28px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; border: 1px solid #ccc; }
+        th { background-color: #f2f2f2; }
+        footer { margin-top: 40px; font-size: 12px; color: #666; }
+    </style>
+</head>
+<body>
+    <h1>📰 Latest News Dashboard</h1>
+    <p>Updated: 20250504_0042</p>
+    <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>source</th>
       <th>title</th>
       <th>publishedAt</th>
+      <th>url</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>CNN</td>
-      <td>Virginia Giuffre, prominent Jeffrey Epstein sex abuse survivor and accuser of Prince Andrew, has died - CNN</td>
-      <td>2025-04-26T05:40:00Z</td>
-    </tr>
-    <tr>
-      <td>Patriots.com</td>
-      <td>Lazar's Best Players Available for the Patriots Heading Into Day Three of the NFL Draft - New England Patriots</td>
-      <td>2025-04-26T04:38:01Z</td>
-    </tr>
-    <tr>
-      <td>Live Science</td>
-      <td>Science news this week: A 'skull' on Mars and the discovery of a brand-new color - Live Science</td>
-      <td>2025-04-26T04:01:11Z</td>
-    </tr>
-    <tr>
-      <td>CBS Sports</td>
-      <td>Did Shedeur Sanders get drafted? Colorado QB shocks by falling past first three rounds of NFL Draft 2025 - CBS Sports</td>
-      <td>2025-04-26T03:57:00Z</td>
-    </tr>
-    <tr>
-      <td>Field Gulls</td>
-      <td>Seattle Seahawks 2025 NFL Draft Round 3 live tracker and updates! - Field Gulls</td>
-      <td>2025-04-26T03:20:22Z</td>
-    </tr>
-    <tr>
-      <td>Deadline</td>
-      <td>‘Fire Country’ Shocker: Two Original Cast Members Leaving CBS Drama After 3 Seasons - Deadline</td>
-      <td>2025-04-26T03:00:00Z</td>
-    </tr>
-    <tr>
-      <td>Axios</td>
-      <td>Pam Bondi revokes Biden-era DOJ policy against subpoenaing journalists - Axios</td>
-      <td>2025-04-26T02:50:52Z</td>
-    </tr>
-    <tr>
-      <td>The Washington Post</td>
-      <td>Former congressman George Santos sentenced to more than 7 years in prison - The Washington Post</td>
-      <td>2025-04-26T01:57:47Z</td>
-    </tr>
-    <tr>
-      <td>cleveland.com</td>
-      <td>Why Browns’ newest running back Quinshon Judkins nearly missed his draft day phone call - Cleveland.com</td>
-      <td>2025-04-26T01:27:00Z</td>
-    </tr>
-    <tr>
-      <td>Politico</td>
-      <td>Education Department to probe New York for trying to pull school mascot of Native American - Politico</td>
-      <td>2025-04-26T01:23:55Z</td>
-    </tr>
-    <tr>
-      <td>Associated Press</td>
-      <td>FBI arrests a Milwaukee judge accused of helping a man evade immigration authorities - AP News</td>
-      <td>2025-04-26T00:55:00Z</td>
-    </tr>
-    <tr>
-      <td>Ringside News</td>
-      <td>WWE SmackDown Match Results, Highlights and Key Moments for April 25, 2025 - Ringside News</td>
-      <td>2025-04-26T00:46:28Z</td>
-    </tr>
-    <tr>
-      <td>The Colorado Sun</td>
-      <td>Vaccinated adult from Colorado infected with measles, the state's first “breakthrough” case this year - The Colorado Sun</td>
-      <td>2025-04-25T23:21:58Z</td>
-    </tr>
-    <tr>
-      <td>Politico</td>
-      <td>How a Trump administration crackdown on foreign students unraveled - Politico</td>
-      <td>2025-04-25T23:10:02Z</td>
-    </tr>
-    <tr>
-      <td>Associated Press</td>
-      <td>Luigi Mangione pleads not guilty to federal death penalty charge in UnitedHealthcare CEO’s killing - AP News</td>
-      <td>2025-04-25T22:33:00Z</td>
-    </tr>
-    <tr>
-      <td>Bloomberg</td>
-      <td>Bezos-Backed Startup Launches Cheap, US-Made Electric Pickup - Bloomberg.com</td>
-      <td>2025-04-25T22:31:48Z</td>
-    </tr>
-    <tr>
-      <td>KUT</td>
-      <td>Second measles case reported locally, Austin Public Health says - KUT</td>
-      <td>2025-04-25T22:01:00Z</td>
-    </tr>
-    <tr>
-      <td>Ars Technica</td>
-      <td>New study: There are lots of icy super-Earths - Ars Technica</td>
-      <td>2025-04-25T21:06:25Z</td>
-    </tr>
-    <tr>
-      <td>Hollywood Reporter</td>
-      <td>Box Office: ‘Sinners’ Eyes Astounding $30M-$40M, ‘Accountant 2’ Gains Edge Over ‘Revenge of the Sith’ - The Hollywood Reporter</td>
-      <td>2025-04-25T20:48:45Z</td>
-    </tr>
-    <tr>
-      <td>BleepingComputer</td>
-      <td>Windows 11 KB5055627 update released with 30 new changes, fixes - BleepingComputer</td>
-      <td>2025-04-25T20:18:41Z</td>
+      <td>The Wall Street Journal</td>
+      <td>United Airlines Cancels Newark Flights After FAA Staff Walks Out - WSJ</td>
+      <td>2025-05-02T21:50:00Z</td>
+      <td><a href="https://www.wsj.com/business/airlines/united-airlines-cancels-newark-flights-after-faa-staff-walks-out-e794b071" target="_blank">https://www.wsj.com/business/airlines/united-airlines-cancels-newark-flights-after-faa-staff-walks-out-e794b071</a></td>
     </tr>
     <tr>
       <td>BBC News</td>
-      <td>Gaza: WFP runs out of food aid after seven-week Israeli blockade - BBC</td>
-      <td>2025-04-25T19:43:46Z</td>
+      <td>Prince Harry's emotional avalanche hits the Royal Family - BBC</td>
+      <td>2025-05-02T21:30:51Z</td>
+      <td><a href="https://www.bbc.com/news/articles/crrz44d7v08o" target="_blank">https://www.bbc.com/news/articles/crrz44d7v08o</a></td>
     </tr>
     <tr>
-      <td>CNN</td>
-      <td>Annexing Canada, Xi calls, no third term ‘loopholes’: 9 things we learned from TIME’s Trump interview - CNN</td>
-      <td>2025-04-25T19:13:00Z</td>
+      <td>CBS Sports</td>
+      <td>2025 Kentucky Derby predictions, odds, horses, post positions, date: Surprising picks by horse racing expert - CBS Sports</td>
+      <td>2025-05-02T20:58:17Z</td>
+      <td><a href="https://www.cbssports.com/general/news/2025-kentucky-derby-predictions-odds-horses-post-positions-date-surprising-picks-by-horse-racing-expert/" target="_blank">https://www.cbssports.com/general/news/2025-kentucky-derby-predictions-odds-horses-post-positions-date-surprising-picks-by-horse-racing-expert/</a></td>
     </tr>
     <tr>
-      <td>CNN</td>
-      <td>US may have millions more measles cases over next 25 years if childhood vaccination rates continue to decline, study says - CNN</td>
-      <td>2025-04-25T18:18:00Z</td>
+      <td>The Wall Street Journal</td>
+      <td>Exclusive | Harvard President Says Any Move to Revoke Tax-Exempt Status Would Be ‘Highly Illegal’ - WSJ</td>
+      <td>2025-05-02T20:51:00Z</td>
+      <td><a href="https://www.wsj.com/us-news/education/trump-harvard-tax-exempt-status-3b114fb7" target="_blank">https://www.wsj.com/us-news/education/trump-harvard-tax-exempt-status-3b114fb7</a></td>
     </tr>
     <tr>
-      <td>Page Six</td>
-      <td>PK Kemsley makes out with another blond reality TV star as Dorit divorce turns ugly - Page Six</td>
-      <td>2025-04-25T17:59:00Z</td>
+      <td>MarketWatch</td>
+      <td>Stock Market on May 2, 2025: Dow, Nasdaq end sharply higher after U.S. jobs report; S&P 500 erases post-'liberation day' losses as it logs longest winning streak since 2004 - MarketWatch</td>
+      <td>2025-05-02T20:34:59Z</td>
+      <td><a href="https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-and-nasdaq-set-to-extend-winning-run-as-key-jobs-data-looms" target="_blank">https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-and-nasdaq-set-to-extend-winning-run-as-key-jobs-data-looms</a></td>
     </tr>
     <tr>
-      <td>The Verge</td>
-      <td>Microsoft launches Recall and AI-powered Windows search for Copilot Plus PCs - The Verge</td>
-      <td>2025-04-25T17:00:00Z</td>
+      <td>Associated Press</td>
+      <td>Trump administration asks Supreme Court to let DOGE access Social Security systems - AP News</td>
+      <td>2025-05-02T20:29:00Z</td>
+      <td><a href="https://apnews.com/article/doge-social-security-trump-administration-supreme-court-a38db8e9908e56b01265432f4d46e8e3" target="_blank">https://apnews.com/article/doge-social-security-trump-administration-supreme-court-a38db8e9908e56b01265432f4d46e8e3</a></td>
     </tr>
     <tr>
-      <td>CNBC</td>
-      <td>Buy now, stock up or delay: Here's what consumers are snapping up or putting off in face of tariffs - CNBC</td>
-      <td>2025-04-25T16:47:46Z</td>
+      <td>NPR</td>
+      <td>He let snakes bite him some 200 times to create a better snakebite antivenom - NPR</td>
+      <td>2025-05-02T20:26:25Z</td>
+      <td><a href="https://www.npr.org/sections/goats-and-soda/2025/05/02/nx-s1-5381017/snake-bite-venom-antivenom-tim-friede-universal" target="_blank">https://www.npr.org/sections/goats-and-soda/2025/05/02/nx-s1-5381017/snake-bite-venom-antivenom-tim-friede-universal</a></td>
     </tr>
     <tr>
-      <td>SamMobile</td>
-      <td>US Galaxy S23 users: Time to update to One UI 7 (Android 15)! - SamMobile</td>
-      <td>2025-04-25T16:45:32Z</td>
+      <td>NBC News</td>
+      <td>Trump's budget proposes slashing health, education and clean energy programs while talking up bigger military - NBC News</td>
+      <td>2025-05-02T20:25:38Z</td>
+      <td><a href="https://www.nbcnews.com/politics/trump-administration/trumps-budget-proposes-slashing-health-education-clean-energy-programs-rcna204435" target="_blank">https://www.nbcnews.com/politics/trump-administration/trumps-budget-proposes-slashing-health-education-clean-energy-programs-rcna204435</a></td>
     </tr>
     <tr>
-      <td>Theregister.com</td>
-      <td>Hubble Space Telescope is still producing science at 35 - theregister.com</td>
-      <td>2025-04-25T14:29:00Z</td>
+      <td>Associated Press</td>
+      <td>Public broadcasting chiefs vow to fight Trump's executive order cutting federal funding for PBS, NPR - AP News</td>
+      <td>2025-05-02T20:12:00Z</td>
+      <td><a href="https://apnews.com/article/trump-pbs-npr-media-funding-8b51113b8edd932aa850235318b73e53" target="_blank">https://apnews.com/article/trump-pbs-npr-media-funding-8b51113b8edd932aa850235318b73e53</a></td>
     </tr>
     <tr>
-      <td>Forbes</td>
-      <td>Elon Musk Is Running Out Of Ideas To Save Tesla - Forbes</td>
-      <td>2025-04-25T10:30:00Z</td>
+      <td>BBC News</td>
+      <td>Yellowstone National Park: Seven killed in tour bus crash - BBC</td>
+      <td>2025-05-02T19:54:39Z</td>
+      <td><a href="https://www.bbc.com/news/articles/ce92eljknz9o" target="_blank">https://www.bbc.com/news/articles/ce92eljknz9o</a></td>
     </tr>
     <tr>
-      <td>SciTechDaily</td>
-      <td>Scientists Found Bird Flu in Dairy Cows – Here’s Why That’s Terrifying - SciTechDaily</td>
-      <td>2025-04-24T17:59:08Z</td>
+      <td>CBS News</td>
+      <td>Grand Theft Auto 6 release date punted to May 2026 - CBS News</td>
+      <td>2025-05-02T19:49:56Z</td>
+      <td><a href="https://www.cbsnews.com/news/grand-theft-auto-vi-may-2026/" target="_blank">https://www.cbsnews.com/news/grand-theft-auto-vi-may-2026/</a></td>
+    </tr>
+    <tr>
+      <td>BBC News</td>
+      <td>Reform UK makes big gains in English local elections - BBC</td>
+      <td>2025-05-02T19:13:25Z</td>
+      <td><a href="https://www.bbc.com/news/articles/cd6j8e38p79o" target="_blank">https://www.bbc.com/news/articles/cd6j8e38p79o</a></td>
+    </tr>
+    <tr>
+      <td>CBS Sports</td>
+      <td>Ryan Garcia vs. Rolando Romero fight: Undercard, odds, start time, date, location, rumors, complete guide - CBS Sports</td>
+      <td>2025-05-02T19:00:00Z</td>
+      <td><a href="https://www.cbssports.com/boxing/news/ryan-garcia-vs-rolando-romero-fight-undercard-odds-start-time-date-location-rumors-complete-guide/" target="_blank">https://www.cbssports.com/boxing/news/ryan-garcia-vs-rolando-romero-fight-undercard-odds-start-time-date-location-rumors-complete-guide/</a></td>
+    </tr>
+    <tr>
+      <td>Live Science</td>
+      <td>Astronomers spot candidate for potential ninth planet far beyond Neptune - Live Science</td>
+      <td>2025-05-02T19:00:00Z</td>
+      <td><a href="https://www.livescience.com/space/planets/astronomers-identify-first-good-candidate-for-controversial-planet-nine-deep-in-our-solar-system" target="_blank">https://www.livescience.com/space/planets/astronomers-identify-first-good-candidate-for-controversial-planet-nine-deep-in-our-solar-system</a></td>
+    </tr>
+    <tr>
+      <td>HuffPost</td>
+      <td>RFK Jr. To Require Placebo Testing For ‘All New Vaccines’ - HuffPost</td>
+      <td>2025-05-02T18:43:35Z</td>
+      <td><a href="https://www.huffpost.com/entry/rfk-jr-to-require-placebo-testing-for-all-new-vaccines_n_6814f8a9e4b0c553a15cbfec" target="_blank">https://www.huffpost.com/entry/rfk-jr-to-require-placebo-testing-for-all-new-vaccines_n_6814f8a9e4b0c553a15cbfec</a></td>
+    </tr>
+    <tr>
+      <td>Politico</td>
+      <td>Rubio condemns German intelligence’s decision to classify far-right party AfD as extremist - Politico</td>
+      <td>2025-05-02T18:40:54Z</td>
+      <td><a href="https://www.politico.com/news/2025/05/02/marco-rubio-germany-afd-00324283" target="_blank">https://www.politico.com/news/2025/05/02/marco-rubio-germany-afd-00324283</a></td>
+    </tr>
+    <tr>
+      <td>Nintendo Life</td>
+      <td>Rumour: Yuji Horii Might Have Let Slip Some Massive Remake News - Nintendo Life</td>
+      <td>2025-05-02T18:37:00Z</td>
+      <td><a href="https://www.nintendolife.com/news/2025/05/rumour-yuji-horii-might-have-let-slip-some-massive-remake-news" target="_blank">https://www.nintendolife.com/news/2025/05/rumour-yuji-horii-might-have-let-slip-some-massive-remake-news</a></td>
+    </tr>
+    <tr>
+      <td>Axios</td>
+      <td>What to know about Stephen Miller, Trump's potential next national security adviser - Axios</td>
+      <td>2025-05-02T18:23:43Z</td>
+      <td><a href="https://www.axios.com/2025/05/02/stephen-miller-trump-national-security-adviser" target="_blank">https://www.axios.com/2025/05/02/stephen-miller-trump-national-security-adviser</a></td>
+    </tr>
+    <tr>
+      <td>The-race.com</td>
+      <td>Bearman crash, Piastri fastest: F1's Miami GP sole practice session - The Race</td>
+      <td>2025-05-02T18:06:27Z</td>
+      <td><a href="https://www.the-race.com/formula-1/what-happened-in-sole-f1-miami-gp-practice-session/" target="_blank">https://www.the-race.com/formula-1/what-happened-in-sole-f1-miami-gp-practice-session/</a></td>
+    </tr>
+    <tr>
+      <td>Fortune</td>
+      <td>Trump got a strong jobs report, but not in the way he necessarily wanted - Fortune</td>
+      <td>2025-05-02T18:05:00Z</td>
+      <td><a href="https://fortune.com/2025/05/02/trump-strong-jobs-report-not-way-he-necessarily-wanted/" target="_blank">https://fortune.com/2025/05/02/trump-strong-jobs-report-not-way-he-necessarily-wanted/</a></td>
+    </tr>
+    <tr>
+      <td>Catholicnewsagency.com</td>
+      <td>Pope Francis’ cardinal picks bring new voices to the conclave - Catholic News Agency</td>
+      <td>2025-05-02T17:49:00Z</td>
+      <td><a href="https://www.catholicnewsagency.com/news/263817/pope-francis-cardinal-picks-bring-new-voices-to-the-conclave" target="_blank">https://www.catholicnewsagency.com/news/263817/pope-francis-cardinal-picks-bring-new-voices-to-the-conclave</a></td>
+    </tr>
+    <tr>
+      <td>BBC News</td>
+      <td>Live updates - Canada's Carney to meet Trump - BBC</td>
+      <td>2025-05-02T17:37:30Z</td>
+      <td><a href="https://www.bbc.com/news/live/cpdz0p5139vt" target="_blank">https://www.bbc.com/news/live/cpdz0p5139vt</a></td>
+    </tr>
+    <tr>
+      <td>Heat.com</td>
+      <td>Gregg Popovich ends coaching career after 29 seasons - NBA</td>
+      <td>2025-05-02T16:51:08Z</td>
+      <td><a href="https://www.nba.com/news/gregg-popovich-becomes-spurs-team-president" target="_blank">https://www.nba.com/news/gregg-popovich-becomes-spurs-team-president</a></td>
+    </tr>
+    <tr>
+      <td>ABC News</td>
+      <td>Measles cases surpass 900 in US as infections confirmed in 29 states, CDC data shows - ABC News</td>
+      <td>2025-05-02T16:29:01Z</td>
+      <td><a href="https://abcnews.go.com/Health/measles-cases-surpass-900-us-infections-confirmed-29/story" target="_blank">https://abcnews.go.com/Health/measles-cases-surpass-900-us-infections-confirmed-29/story</a></td>
+    </tr>
+    <tr>
+      <td>Associated Press</td>
+      <td>CDC reports 216 child deaths this flu season, the most in 15 years - AP News</td>
+      <td>2025-05-02T15:25:00Z</td>
+      <td><a href="https://apnews.com/article/flu-deaths-children-cdc-e79b1e4169d629ad4bc1095d95d82110" target="_blank">https://apnews.com/article/flu-deaths-children-cdc-e79b1e4169d629ad4bc1095d95d82110</a></td>
+    </tr>
+    <tr>
+      <td>Entertainment Weekly</td>
+      <td>'Thunderbolts*' director says post-credits scene was shot for 'Avengers: Doomsday' - Entertainment Weekly</td>
+      <td>2025-05-02T15:00:00Z</td>
+      <td><a href="https://ew.com/thunderbolts-post-credits-scene-avengers-doomsday-explained-11725457" target="_blank">https://ew.com/thunderbolts-post-credits-scene-avengers-doomsday-explained-11725457</a></td>
+    </tr>
+    <tr>
+      <td>NBC News</td>
+      <td>How to see Halley’s comet debris in the Eta Aquarid meteor shower - NBC News</td>
+      <td>2025-05-02T14:33:28Z</td>
+      <td><a href="https://www.nbcnews.com/science/space/see-halleys-comet-debris-eta-aquarid-meteor-shower-rcna204416" target="_blank">https://www.nbcnews.com/science/space/see-halleys-comet-debris-eta-aquarid-meteor-shower-rcna204416</a></td>
+    </tr>
+    <tr>
+      <td>ABC News</td>
+      <td>Alec Baldwin's 'Rust' finally released in theaters over 3 years after shooting death of cinematographer - ABC News</td>
+      <td>2025-05-02T13:47:15Z</td>
+      <td><a href="https://abcnews.go.com/US/alec-baldwins-rust-finally-released-theaters-3-years/story?id\\u003d121391516" target="_blank">https://abcnews.go.com/US/alec-baldwins-rust-finally-released-theaters-3-years/story?id\\u003d121391516</a></td>
+    </tr>
+    <tr>
+      <td>IGN</td>
+      <td>Deals For Today: Big Fire TV Sticks And Switch 2 Screen Protector Discounts - IGN</td>
+      <td>2025-05-02T11:21:21Z</td>
+      <td><a href="https://www.ign.com/articles/best-deals-for-may-2-2025" target="_blank">https://www.ign.com/articles/best-deals-for-may-2-2025</a></td>
     </tr>
   </tbody>
 </table>
-        </body>
-        </html>
-        <footer style='margin-top:40px;font-size:12px;'>Last updated: 20250427_0808</footer>
+    <footer>Auto-generated from NewsAPI on 20250504_0042</footer>
+</body>
+</html>
