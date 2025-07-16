@@ -1,7 +1,3 @@
----
-layout: page
----
-
 <img src="{{ site.baseurl }}/assets/profile.jpg" alt="" width="180" style="border-radius: 50%; margin-bottom: 1rem;">
 
 # Bahman Roostaei
